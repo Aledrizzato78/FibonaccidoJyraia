@@ -4,7 +4,7 @@ public class Quadrado extends Figura {
 
 	public Quadrado() {
 
-		Quadrado quadrado = new desenho2();
+		Quadrado quadrado = new Quadrado();
 	}
 
 	public static void main(String[] args) {
