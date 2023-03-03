@@ -6,8 +6,5 @@ public class Figura extends Desenhista {
 			
 			
 			
-			
-			
-				
 	
 }
