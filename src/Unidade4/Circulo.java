@@ -7,4 +7,7 @@ public class Circulo extends Figura {
 		Circulo circulo = new desenho1();
 	}
 
+	public static void main(String[] args) {
+}
+
 }

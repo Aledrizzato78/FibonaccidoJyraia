@@ -4,6 +4,10 @@ public class Triangulo extends Figura {
 
 	public Triangulo() {
 		
-		Triangulo triangulo = new desenho3();	}
+		Triangulo triangulo = new desenho3();	
+		}
 
+	public static void main(String[] args) {
+		
+	}
 }
