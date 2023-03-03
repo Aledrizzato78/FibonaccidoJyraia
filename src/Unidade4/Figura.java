@@ -7,6 +7,8 @@ public class Figura extends Desenhista {
 		figura Circulo = new desenho();
 		figura Quadrado = new desenho1();
 		figura Triangulo = new desenho2();
-	
+		{
+		
+		}
 	}
 }
