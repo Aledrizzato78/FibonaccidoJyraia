@@ -10,7 +10,7 @@ public class Fibonacci {
 		int calculado = anterior1 + anterior2;
 		System.out.print(anterior1+ "," +anterior2+ "," +calculado+ ",");
 		
-		for (int i=0; i <= 30; i++)
+		for (int i=1; i <=5; i++)
 		{
 			anterior1 = anterior2;
 			anterior2 = calculado;
@@ -20,7 +20,7 @@ public class Fibonacci {
 		}
 		{
 			
-				for (int cont=0; cont <=30 ; cont++){
+				for (int cont=1; cont <=8 ; cont++){
 				System.out.println("o valor do contador é:"+cont);
 			}
 			}
