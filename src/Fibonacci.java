@@ -25,8 +25,8 @@
 		System.out.println(anterior1+ "," +anterior2+ "," +calculado+",");
 		
 		for ( double i = 0; i =(valor1 % valor2););
-
 		{
+		
 			anterior1 = anterior2;
 			anterior2 = calculado;
 			calculado = anterior1 + anterior2;
