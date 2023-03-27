@@ -1,3 +1,8 @@
+		//entrada no scaner
+		//verificar se o numero de entrada é fibo
+		//se for vc pega esse numero e calcula o anterior
+		//se não for vc calcula os dois anteriores
+		//de forma que vc tenha dois numeros fibo iniciais para o for
 
 
 
@@ -12,27 +17,36 @@
 		int valor1 = sc1.nextInt();
 		sc1.close();
 		
-		Scanner sc2 = new Scanner (System.in);
-		System.out.print("Informe o valor final de Fibonacci");	
-		int valor2 = sc2.nextInt();
-		sc2.close();
-	{
+			
 		int num1 = 1, num2 = 0;
+
+		//System.out.println(num2);
+		//System.out.println(num1);
 		
-		System.out.println(num2);
-		System.out.println(num1);
-		
-		for(int i=0; i=(valor1%valor2);i++){
+		for (int i=0; i<10; i++) {
+			
 			num1 = num1 + num2;
 			num2 = num1 - num2;
-			System.out.println(num1);
 			
+			
+		//System.out.println(num1);
+	
+			int nums [] = {num1};
+			int z = valor1;
+			for (int x:nums) {
+				z = z + x;
+			}
+			System.out.println(" a sequencia Fibo é" + z);
+			}
+		  }
 		}
-	}
+	
+	
+	
 			
-	}
+	
 		
-	}
+	
 	
 
 
