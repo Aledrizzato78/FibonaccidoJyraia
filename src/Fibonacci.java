@@ -18,7 +18,7 @@
 		sc1.close();
 		
 			
-		int num1 = 1, num2 = 0;
+		int num1 = valor1 , num2 = num1-1;
 
 				
 		for (int i=0; i<10; i++) {
