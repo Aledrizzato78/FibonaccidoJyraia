@@ -20,28 +20,25 @@
 			
 		int num1 = 1, num2 = 0;
 
-		//System.out.println(num2);
-		//System.out.println(num1);
-		
+				
 		for (int i=0; i<10; i++) {
 			
 			num1 = num1 + num2;
 			num2 = num1 - num2;
 			
-			
-		//System.out.println(num1);
-	
+			{	
+		
 			int nums [] = {num1};
 			int z = valor1;
 			for (int x:nums) {
 				z = z + x;
 			}
-			System.out.println(" a sequencia Fibo é" + z);
+			System.out.println(" a sequencia Fibo é" +" "+ z);
 			}
 		  }
 		}
 	
-	
+	}
 	
 			
 	
