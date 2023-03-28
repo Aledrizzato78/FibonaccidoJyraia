@@ -18,7 +18,7 @@
 		sc1.close();
 		
 			
-		int num1 = valor1 , num2 = num1-1;
+		int num1 = 0 , num2 = 0+1;
 
 				
 		for (int i=0; i<10; i++) {
@@ -31,22 +31,27 @@
 			int nums [] = {num1};
 			int z = valor1;
 			for (int x:nums) {
-				z = z + x;
-			}
-			System.out.println(" a sequencia Fibo é" +" "+ z);
-			}
-		  }
-		}
-	
-	}
-	
+			z = z + x;		
 			
+			System.out.println(" a sequencia Fibo é" +" "+ z);
+			
+					}
+			}
+			}
+		}
+	}
+		
 	
 		
 	
 	
 
-
+/*	if (z==x) {
+		System.out.println("a sequencia fibonacci é"+" "+ z+x);
+	}
+		else if  (z!=x) {
+			System.out.println("a sequencia fibonacci é"+" "+ (z-2+x));
+*/
 				
 
 	
