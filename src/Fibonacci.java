@@ -12,46 +12,49 @@
 	
 	public static void main(String[] args) {
 	
+		
+		int n1 = 0, n2 = 1, n3 = 0;
+		
 		Scanner sc1 = new Scanner (System.in);
 		System.out.print("Informe o valor inicial de Fibonacci");
 		int valor1 = sc1.nextInt();
 		sc1.close();
 		
-			
-		int num1 = 0 , num2 = 0+1;
-
+			while(valor1>n3) {
+				n3 = n1 + n2;
+				n1 = n2;
+				n2 = n3;
 				
-		for (int i=0; i<10; i++) {
-			
-			num1 = num1 + num2;
-			num2 = num1 - num2;
-			
-			{	
+			}
+			if (valor1==0) {
+				System.out.println("o numero 0 esta na sequencia fibonacci. \nO proximo numero é :" + n2);
+				
+			}else if (valor1==n3) {
+				System.out.println("o numero" +"  "+ valor1 +"  "+ "esta na sequencia fibonacci. \nO proximo numero é :" + (n1+valor1));
+				
+			}else {
+				System.out.println("este numero não faz parte da sequencia fibonacci");
 		
-			int nums [] = {num1};
-			int z = valor1;
-			for (int x:nums) {
-			z = z + x;		
 			
-			System.out.println(" a sequencia Fibo é" +" "+ z);
 			
 					}
 			}
 			}
-		}
-	}
 		
-	
-		
-	
-	
 
-/*	if (z==x) {
-		System.out.println("a sequencia fibonacci é"+" "+ z+x);
-	}
-		else if  (z!=x) {
-			System.out.println("a sequencia fibonacci é"+" "+ (z-2+x));
-*/
+	
+		
+	
+		
+	
+	
+		
+			/*
+			 int nums [] = {num1};
+			int z = valor1;
+			for (int x:nums) {
+			z = z + x;		
+			*/
 				
 
 	
