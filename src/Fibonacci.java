@@ -41,7 +41,7 @@
 				do {  
 	               System.out.println("O proximo numero da sequencia Fibo é :" + i);
 	               i++;  
-	            }while(i<=10);  
+	            }while(i<=n1);  
 		}
 	}
 	
