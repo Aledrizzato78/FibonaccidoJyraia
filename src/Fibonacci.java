@@ -37,11 +37,11 @@
 			}else {
 				System.out.println("este numero não faz parte da sequencia fibonacci");
 			
-			} int i = (n1+valor1);  
-	           do {  
-	               System.out.println("O proximo numero da sequencia Fibo é :" + i);  
+			} int i = ((n1+valor1)+n3); 
+				do {  
+	               System.out.println("O proximo numero da sequencia Fibo é :" + i);
 	               i++;  
-	            }while(i<=20);  
+	            }while(i<=10);  
 		}
 	}
 	
